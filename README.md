@@ -17,3 +17,24 @@ I ran the code June 17, 2026, so results reflect the top selling games at that t
 * There was a small positive correlation between Metacritic ratings and Steam's review score among games with available Metacritic ratings (R = 0.26).
 * Recommendations and review scores did not appear to differ substantially between games of different genres, although games of different genres may rank differently within the top 100.
 * Regression models predicting total recommendations from rank, release year, and review score, and predicting review score from rank, release year, genre, and Mac availability, did not appear to fit the data well.
+
+## Acknowledgements 
+I consulted the following web resources while working on this project:
+
+
+<strong>Testing regression assumptions in Python:</strong>
+* Sankhadeep Dutta, "An Ultimate Guide To All The Assumptions Of The Linear Regression", <i>Medium</i>
+* Michael Brydon, "Basic Analytics in Python 9. Multiple Linear Regression", Simon Fraser University
+
+
+<strong>Standardizing data in Python</strong>
+* GeeksforGeeks, "How to Standardize Data in a Pandas DataFrame?"
+
+
+<strong>Creating dummy variables in Python</strong>
+* GeeksforGeeks, "How to Create Dummy Variables in Python with Pandas?"
+* whyamit404, "Understanding Pandas Dummy Variables", <i>Medium</i>
+
+
+<strong>Debugging and code organization</strong>
+* ChatGPT - consulted for debugging assistance and suggestions for improving code organization and readability
