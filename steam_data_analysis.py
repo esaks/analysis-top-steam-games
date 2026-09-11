@@ -17,7 +17,7 @@ print(data.info()) # Gives all columns, null counts and types
 
 # Cleaning - drop games that are not type = game
 data = data[data['type'] == "game"] 
-#print(len(data)) #98, drops 2
+print(len(data)) 
 
 # What are the most popular game genres?
 all_genres = {}
@@ -39,8 +39,7 @@ print(data['review_score_desc'].value_counts()) #Sentiment leans positive
 
 # What percent of games have mac available? 
 mac_games = data.query('mac_available == True', inplace=False) #prints data frame with only those games that can be played on mac
-#print(len(mac_games)) #number of mac games = 20
-#print(len(mac_games)/len(data)) # percent that are mac games 20%
+print(len(mac_games)) 
 
 # What is the price of each game in dollars and cents? (alter column)
 def cents_to_dollars(cents):
