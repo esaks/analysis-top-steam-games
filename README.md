@@ -22,7 +22,7 @@ I ran the code June 17, 2026, so results reflect the top selling games at that t
 I consulted the following web resources while working on this project:
 
 
-<strong>Testing regression assumptions in Python:</strong>
+<strong>Testing regression assumptions in Python</strong>
 * Sankhadeep Dutta, "An Ultimate Guide To All The Assumptions Of The Linear Regression", <i>Medium</i>
 * Michael Brydon, "Basic Analytics in Python 9. Multiple Linear Regression", Simon Fraser University
 
